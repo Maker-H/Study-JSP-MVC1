@@ -8,7 +8,20 @@
 </head>
 <body>
 
-<% int i = 10; %>
+<h2> print 1 to 10 </h2>
+<%
+//print 1~10
+for(int i=0; i<10; i++) {
+%>
+
+<%= i%><br>
+
+
+<% 
+//System.out.println(i);
+//by doing this, data doesn't show in browser
+}
+%>
 
 </body>
 </html>
